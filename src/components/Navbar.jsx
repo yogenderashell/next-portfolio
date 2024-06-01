@@ -75,7 +75,6 @@ const Navbar = () => {
       <div className="md:hidden lg:flex xl:justify-center xl:w-1/3">
         <Link
           href={"/"}
-          onClick={() => window.location.reload()}
           className=" text-sm bg-black rounded-md p-1 font-semibold flex items-center justify-center"
         >
           <span className=" text-white mr-1">Yogi</span>
