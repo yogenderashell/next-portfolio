@@ -41,7 +41,7 @@ const Contact = () => {
       transition={{ duration: 1 }}
     >
       <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
-        <div className="h-1/2 lg:h-full lg:w-1/2 flex items-center justify-center text-6xl">
+        <div className="h-1/5 lg:h-full lg:w-1/2 flex items-center justify-center text-6xl">
           <div>
             {text.split("").map((letter, index) => (
               <motion.span
@@ -63,7 +63,7 @@ const Contact = () => {
         <form
           onSubmit={sendEmail}
           ref={form}
-          className="h-1/2 lg:h-full lg:w-1/2 bg-purple-200 rounded-xl text-xl flex flex-col gap-8 justify-center p-24"
+          className=" h-4/5 lg:h-full lg:w-1/2 bg-purple-200 rounded-xl text-xl flex flex-col gap-8 justify-center p-4 lg:p-24"
         >
           <span>Dear Yogender</span>
           <textarea

@@ -50,7 +50,7 @@ const Portfolio = () => {
       transition={{ duration: 1 }}
     >
       <div className="h-[600vh] relative" ref={ref}>
-        <div className="w-screen h-[calc(100vh-6rem)] flex justify-center items-center text-8xl text-center">
+        <div className="w-full h-[calc(100vh-6rem)] flex justify-center items-center text-8xl text-center">
           My Works
         </div>
         <div className=" sticky top-0 flex h-screen gap-4 items-center overflow-hidden">
@@ -78,8 +78,8 @@ const Portfolio = () => {
           </motion.div>
         </div>
       </div>
-      <div className="w-screen h-screen flex flex-col gap-16 items-center justify-center text-center">
-        <h1 className="text-8xl">Do you have a project?</h1>
+      <div className="w-full h-screen flex flex-col gap-16 items-center justify-center text-center">
+        <h1 className="text-5xl lg:text-8xl">Do you have a project?</h1>
         <div className="relative">
           <motion.svg
             animate={{ rotate: 360 }}
