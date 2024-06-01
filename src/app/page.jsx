@@ -16,7 +16,7 @@ const Homepage = () => {
         </div>
         <div className="h-1/2 flex flex-col gap-4 md:gap-8 items-center justify-center">
           <h1 className="text-4xl font-bold md:text-5xl">
-            Empowering Tomorrow's Tech Innovators Today
+            Empowering Tomorrow&apos;s Tech Innovators Today
           </h1>
           <p className="md:text-xl">
             Welcome to my digital canvas where I showcase my passion for
