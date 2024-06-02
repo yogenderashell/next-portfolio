@@ -16,12 +16,10 @@ const Homepage = () => {
         </div>
         <div className="h-1/2 flex flex-col gap-4 md:gap-8 items-center justify-center">
           <h1 className="text-4xl font-bold md:text-5xl">
-            Empowering Tomorrow&apos;s Tech Innovators Today
+            Mastering Code, One Byte at a Time
           </h1>
           <p className="md:text-xl">
-            Welcome to my digital canvas where I showcase my passion for
-            computer science, experimenting with code to craft innovative
-            solutions that shape the future.
+            Immerse yourself in my coding universe, where imagination fuels innovation, creating cutting-edge solutions for the future of software.
           </p>
           <div className="w-full justify-center flex gap-4 text-lg">
             <Link href="/portfolio">
