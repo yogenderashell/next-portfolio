@@ -12,6 +12,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+      <link rel="shortcut icon" href="/profile.jpeg"/>
+      </head>
       <body className={inter.className}>
         <TransitionProvide>{children}</TransitionProvide>
       </body>

@@ -12,34 +12,34 @@ const Portfolio = () => {
     {
       id: 1,
       color: "from-red-300 to-blue-300",
-      title: "React Commerce",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-      img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-      link: "https://lama.dev",
+      title: "Karamsetu Foundation",
+      desc: "Karamsetu Foundation empowers communities through education, healthcare, and sustainable development. We bridge gaps to create opportunities, fostering growth and supporting underprivileged sections for a brighter future.",
+      img: "/karamsetu.png",
+      link: "https://karamsetufoundation.org",
     },
     {
       id: 2,
-      color: "from-blue-300 to-violet-300",
-      title: "Next.js Medium Blog",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-      img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-      link: "https://lama.dev",
+      color: "from-red-300 to-blue-300",
+      title: "Case Panda",
+      desc: "At our eCommerce store, find durable mobile covers designed to withstand daily wear and tear. Personalize your cover with custom images to make it uniquely yours. Enjoy the perfect blend of protection and style for your mobile device",
+      img: "/casepanda.png",
+      link: "https://casepanda.vercel.app/",
     },
     {
       id: 3,
       color: "from-violet-300 to-purple-300",
-      title: "Vanilla Book App",
+      title: "Under Progress",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
       img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-      link: "https://lama.dev",
+      link: "https://iyogi.vercel.app/",
     },
     {
       id: 4,
       color: "from-purple-300 to-red-300",
-      title: "Spotify Music App",
+      title: "Under Progress",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
       img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      link: "https://lama.dev",
+      link: "https://iyogi.vercel.app/",
     },
   ];
   return (
@@ -65,12 +65,16 @@ const Portfolio = () => {
                   <h1 className="text-xl font-bold md:text-4xl lg:text-5xl xl:text-7xl">
                     {item.title}
                   </h1>
-                  <div className="relative w-80 h-56 md:w-96 md:h-60 lg:w-[450px] lg:h-[300px] xl:w-[540px] xl:h-[378px]">
+                  <div className="relative w-80 h-48 md:w-96 md:h-60 lg:w-[424px] lg:h-[270px] xl:w-[533px] xl:h-[300px]">
                     <Image src={item.img} alt="" fill />
                   </div>
-                  <p className="w-80 md:w-96 lg:w-[500px] lg:text-lg xl:w-[600px]">{item.desc}</p>
+                  <p className="w-80 md:w-96 lg:w-[500px] lg:text-lg xl:w-[600px]">
+                    {item.desc}
+                  </p>
                   <Link href={item.link} className=" flex justify-end">
-                    <button className="p-2 text-sm md:p-3 md:text-md lg:p-6 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">See Demo</button>
+                    <button className="p-2 text-sm md:p-3 md:text-md lg:p-6 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">
+                      See Demo
+                    </button>
                   </Link>
                 </div>
               </div>

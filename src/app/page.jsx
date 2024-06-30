@@ -19,7 +19,9 @@ const Homepage = () => {
             Mastering Code, One Byte at a Time
           </h1>
           <p className="md:text-xl">
-            Immerse yourself in my coding universe, where imagination fuels innovation, creating cutting-edge solutions for the future of software.
+            Immerse yourself in my coding universe, where imagination fuels
+            innovation, creating cutting-edge solutions for the future of
+            software.
           </p>
           <div className="w-full justify-center flex gap-4 text-lg">
             <Link href="/portfolio">
