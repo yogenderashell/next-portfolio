@@ -85,7 +85,7 @@ const Navbar = () => {
       </div>
 
       <div className="hidden md:flex gap-4 w-1/3 md:justify-center">
-        <Link href={"https://github.com/yogenderashell"} target="_blank">
+        <Link href={"https://github.com/yogicompute"} target="_blank">
           <Image src={"/github.png"} alt="" width={24} height={24} />
         </Link>
         <Link href={"https://www.instagram.com/sweet__error/"} target="_blank">
